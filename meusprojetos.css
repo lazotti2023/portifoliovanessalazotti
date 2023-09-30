@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}    
+body{
+    background-image: url(img/fundo1.jpg);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card {
+    margin: 50px;
+    background-color: rgb(241, 208, 208);
+    color: rgb(32, 54, 54);
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: (0 ,0 , 0.3) 0px 19px 38px rgba 0, 0 , 0, 0.22;
+}
+
+.card>h1{
+    font-size: 25px;
+    padding-top: 10px;
+    flex: 1 1 150px;
+    margin: 5px;
+}
+.card>img {
+    width: 100%;
+    border-bottom-left-radius: 10x;
+    border-top-right-radius: 10px;
+
+}
+.btn{
+    cursor: pointer;
+    padding-top: 10px;
+    border: none;
+    background-color: rgb(54, 53, 150);
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 600;
+    transition: 1s;
+    margin-top: 35px;
+    
+}
+.btn:hover{
+    transition: 0,5s;
+    background-color: blueviolet;  
+}
